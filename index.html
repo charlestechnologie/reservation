@@ -19,29 +19,22 @@
                 <div class = "card-content">
                     <h3>Réservation</h3>
                     <form action="https://formspree.io/f/mwkzknjn" method="post">
-                        <div class = "form-row">
+                        <div class = "row">
                             <select name = "table">
                                 <option value = "day-select" >Select Table</option>
                                 <option value = "table1">Table 1</option>
                                 <option value = "table2">Table 2</option>
 
                             </select>
-
                             <!-- <select name = "hours">
                                 <option value = "hour-select">Nombre de personnes</option>
                                 <option value = "10">6</option>
                                 <option value = "10">8</option>
 
                             </select> -->
-                        </div>
-
-                        <div class = "row">
                             <input type="email" placeholder="Email" required>
                             <input type = "name" placeholder="Full Name" required>
-                            <input type = "text" placeholder="Phone Number" required>
-                        </div>
-
-                        <div class = "row">
+                            <input type = "phone" placeholder="Phone Number" required>
                             <input type = "number" placeholder="Nombres de persones?" min = "6" max="10" required>
                             <input type = "submit" value = "Envoyer">
                         </div>

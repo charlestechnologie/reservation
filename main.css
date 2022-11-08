@@ -25,7 +25,7 @@ body{
 }
 .card-container{
     display: grid;
-    grid-template-columns: 420px 420px;
+    grid-template-columns: 520px 520px;
 }
 .card-img{
     background: url("/unnamed.jpg") center/cover no-repeat;
@@ -36,7 +36,7 @@ body{
 }
 .card-content{
     background: #fff;
-    height: 330px;
+    height: 470px;
 }
 .card-content h3{
     text-align: center;
@@ -47,11 +47,13 @@ body{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
 }
 form select, form input{
     display: block;
+    display: flex;
     width: 100%;
     margin: 15px 12px;
     padding: 5px;
@@ -68,12 +70,16 @@ form input[type = text], form input[type = number], form input::placeholder, sel
 form input[type = submit]{
     color: #fff;
     background: #f2745f;
-    padding: 12px 0;
+    padding: 12px 30px;
     border-radius: 4px;
     cursor: pointer;
+    width: 30%;
+    margin-left: 30%;
+    text-align: center;
 }
 form input[type = submit]:hover{
     opacity: 0.9;
+
 }
 footer{
     background: #111;
