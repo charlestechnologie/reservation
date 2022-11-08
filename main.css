@@ -45,7 +45,7 @@ body{
     font-size: 26px;
     font-weight: 500;
 }
-.form-row{
+.row{
     display: flex;
     width: 90%;
     margin: 0 auto;
