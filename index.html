@@ -21,9 +21,9 @@
                     <form action="https://formspree.io/f/mwkzknjn" method="post">
                         <div class = "form-row">
                             <select name = "table">
-                                <option value = "day-select">Select Table</option>
-                                <option value = "sunday">Nom 1</option>
-                                <option value = "monday">nom 2</option>
+                                <option value = "day-select" >Select Table</option>
+                                <option value = "table1">Table 1</option>
+                                <option value = "table2">Table 2</option>
 
                             </select>
 
@@ -36,12 +36,13 @@
                         </div>
 
                         <div class = "form-row">
-                            <input type = "text" placeholder="Full Name">
-                            <input type = "text" placeholder="Phone Number">
+                            <input type="email" placeholder="Email" required>
+                            <input type = "text" placeholder="Full Name" required>
+                            <input type = "text" placeholder="Phone Number" required>
                         </div>
 
                         <div class = "form-row">
-                            <input type = "number" placeholder="Nombres de persones?" min = "6" max="10">
+                            <input type = "number" placeholder="Nombres de persones?" min = "6" max="10" required>
                             <input type = "submit" value = "Envoyer">
                         </div>
                     </form>
