@@ -20,6 +20,7 @@ body{
     padding-bottom: 20px;
 }
 .banner h2{
+    margin-left: 2px;
     margin-top: 10px;
 }
 .card-container{
@@ -27,7 +28,7 @@ body{
     grid-template-columns: 420px 420px;
 }
 .card-img{
-    background: url("/unnamed.webp") center/cover no-repeat;
+    background: url("/unnamed.jpg") center/cover no-repeat;
 }
 .banner h2{
     padding-bottom: 40px;
