@@ -48,10 +48,15 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
-form select, form input{
+form {
+    width: 90%;
+    margin-left: 10px;
+}
+form select, 
+form input{
     display: block;
     display: flex;
     width: 100%;
@@ -70,7 +75,7 @@ form input[type = text], form input[type = number], form input::placeholder, sel
 form input[type = submit]{
     color: #fff;
     background: #f2745f;
-    padding: 12px 30px;
+    padding: 12px 50px;
     border-radius: 4px;
     cursor: pointer;
     width: 30%;
